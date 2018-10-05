@@ -11,9 +11,8 @@ import random as r
 class BallGame(object):
     
     def __init__(self):
-        #TODO: 搭建游戏环境：属性、环境界面等等
         
-        self.screen = t.Screen() #屏幕控制接受
+        self.screen = t.Screen() #屏幕控制
         
         self.speed = 1 
         self.score = 0
